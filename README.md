@@ -46,27 +46,28 @@ This tool solves **one problem extremely well**: converting images to web-ready 
 
 ---
 
-## Current Version: v0.1
+## Current Version: v0.2
 
-**Status:** Initial utility release – functional but minimal UX
+**Status:** UX upgrade complete – polished and production-ready
 
 ### Features
-- Drag & drop support (single or multiple images)
-- Browse button for file selection
-- Automatic WebP conversion with default settings
-- Max width: 1200px (hardcoded)
-- Quality: 85% (hardcoded)
-- Output: Same folder as source, renamed `*_optimized.webp`
+- ✅ Drag & drop with visual feedback (panel highlights on hover)
+- ✅ Browse button for easy file selection
+- ✅ Results list showing all processed files with detailed stats
+- ✅ Before/after size display with compression percentage
+- ✅ Progress bar for batch operations
+- ✅ Total statistics (cumulative savings across all images)
+- ✅ Error handling that continues on failure
+- ✅ Clear results button
+- ✅ Automatic WebP conversion with optimized settings
+  - Max width: 1200px (preserves aspect ratio)
+  - Quality: 85%
+  - Output: Same folder as source, appends `_optimized.webp`
 
-### Known Limitations
-- No output folder selection (saves next to originals)
-- No before/after size comparison
-- No batch processing summary
-- No settings customization (quality/width locked)
-- Windows Explorer drag/drop can be finicky (app must be in focus)
-- Basic UI (functional, not polished)
-
-**These are intentional tradeoffs for v0.1** – ship a working tool fast, polish later.
+### Remaining Limitations
+- No output folder selection (saves next to originals) – coming in v0.3
+- No settings customization (quality/width locked) – coming in v1.0
+- No folder mode (must select individual files) – coming in v0.3
 
 ---
 
@@ -128,9 +129,9 @@ See [ROADMAP.md](docs/ROADMAP.md) for the full development plan.
 
 ## Known Issues
 
-- **Drag & drop requires app focus** – Windows Explorer doesn't always register drops if the app window isn't active. Click the window first.
-- **No visual feedback during processing** – Large batches may appear frozen (v0.2 will add progress bars)
-- **No error recovery** – If one image fails, processing stops (v0.2 will continue on errors)
+- **No folder mode yet** – You must select individual files, can't drop entire folders (coming in v0.3)
+- **Output location fixed** – Files are saved next to originals, no folder picker yet (coming in v0.3)
+- **Settings are hardcoded** – Quality and max width can't be customized yet (coming in v1.0)
 
 Report bugs via [GitHub Issues](../../issues).
 

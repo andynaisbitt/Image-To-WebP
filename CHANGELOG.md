@@ -9,12 +9,47 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Planned for v0.2
-- Before/after size comparison display
-- Processed files results list
-- Improved drag & drop stability
-- Progress indicators for batch processing
-- Better error handling (continue on failure)
+### Planned for v0.3
+- Folder mode (drop entire folders to process)
+- Batch summary statistics
+- Output folder selector
+- Recursive folder processing option
+
+---
+
+## [0.2.0] – 2025-12-09
+
+### Added
+- **Browse button** for file selection (no more drag-only)
+- **Results list view** showing all processed files with detailed stats
+- **Before/after size display** for each image with compression percentage
+- **Progress bar** for visual feedback during batch processing
+- **Total statistics display** showing cumulative savings across all processed images
+- **Clear results button** to reset the results list
+- **Visual drag & drop feedback** (panel changes color when dragging files)
+- Professional modern UI with better layout and spacing
+
+### Improved
+- **Error handling** now continues processing even if one file fails
+- **Drag & drop stability** with better visual feedback
+- **File validation** with clear error messages for unsupported formats
+- UI is now responsive and properly sized for modern displays
+
+### Fixed
+- Processing no longer stops on first error
+- Better feedback for users during long operations
+- Proper file extension detection
+
+### Changed
+- Renamed Form1.cs to MainForm.cs (cleaner codebase)
+- Improved code organization and separation of concerns
+- Updated output filename to use `_optimized.webp` suffix
+
+### Technical
+- Complete UI overhaul using TableLayoutPanel for responsive design
+- ListView with 6 columns for detailed results
+- Real-time progress tracking
+- Better exception handling with user-friendly error messages
 
 ---
 
