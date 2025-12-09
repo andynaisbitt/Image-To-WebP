@@ -1,6 +1,7 @@
 # Image to WebP – Lightweight Image Optimiser
 
 A fast, offline Windows tool that converts images to WebP format with automatic resizing and compression. Drop images in, get optimized files out. No bloat, no cloud, no telemetry.
+<img width="884" height="592" alt="image" src="https://github.com/user-attachments/assets/ac7d09c1-166e-474f-ae9d-a6129759b6b0" />
 
 ---
 
