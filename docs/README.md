@@ -6,6 +6,12 @@ This folder contains additional documentation for **Image to WebP**.
 
 ## Contents
 
+### Current Documentation
+- `PHILOSOPHY.md` – Project principles and design decisions
+- `ROADMAP.md` – Development plan (v0.2 → v1.0)
+- `RELEASE_PROCESS.md` – How to create and publish releases
+- `REPOSITORY_STRUCTURE.md` – Repository layout guide
+
 ### Planned Documentation
 - `USER_GUIDE.md` – Detailed usage instructions and tips (v0.2+)
 - `ARCHITECTURE.md` – Technical overview of codebase structure (v1.0+)

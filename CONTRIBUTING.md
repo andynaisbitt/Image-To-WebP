@@ -56,7 +56,7 @@ Before contributing, understand the project's core principles:
 ### 2. Suggesting Features
 
 **Before requesting:**
-- Read [ROADMAP.md](ROADMAP.md) – your idea might already be planned
+- Read [ROADMAP.md](docs/ROADMAP.md) – your idea might already be planned
 - Check the "Features That Will NEVER Be Added" section
 - Ask yourself: "Does this align with the minimal utility philosophy?"
 

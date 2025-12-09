@@ -117,7 +117,7 @@ Output: C:\Blog\screenshot_optimized.webp (142 KB)
 
 ## Roadmap
 
-See [ROADMAP.md](ROADMAP.md) for the full development plan.
+See [ROADMAP.md](docs/ROADMAP.md) for the full development plan.
 
 **Upcoming:**
 - **v0.2** – Improved UX (before/after stats, results list, drag/drop stability)
